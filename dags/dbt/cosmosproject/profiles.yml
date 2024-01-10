@@ -1,0 +1,13 @@
+cosmosproject:
+  outputs:
+    dev:
+      account: hmquktl-ze81371
+      database: DEMO_dbt
+      password: longdata010203
+      role: dbt_DEV_ROLE
+      schema: public
+      threads: 200
+      type: snowflake
+      user: dbt_USER
+      warehouse: dbt_DEV_WH
+  target: dev
